@@ -71,3 +71,45 @@ body {
   color: #000;
   font-size: 15px;
 }
+
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.container-header {
+  display: flex;
+}
+
+.container-header span {
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  gap: 12px;
+  padding: 12px 18px;
+  align-items: center;
+}
+
+.container-header span:hover {
+  color: #fc3f1d;
+}
+
+.container-header .active {
+  color: #e50f4f;
+  cursor: default;
+  border-bottom: 2px solid #e50f4f;
+}
+
+.container .wrapper {
+  margin: 20px auto;
+}
+
+.container .wrapper > div {
+  font-size: 22px;
+}
+
+.container .wrapper > div b {
+  font-weight: 900;
+}
