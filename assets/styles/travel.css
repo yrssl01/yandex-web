@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .left {
+  display: flex;
+  gap: 6px;
+}
+
+.header .left svg {
+  height: 30px;
+}
+
+.header .right .links,
+.header .right span {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 13px;
+}
+
+.header .right .links {
+  gap: 18px;
+}
+
+.header .right svg {
+  height: 24px;
+  width: 24px;
+}
+
+.header .right .L5rMK {
+  width: 48px;
+  height: 20px;
+}
+
+.header .right span {
+  gap: 6px;
+  cursor: pointer;
+}
+
+.header .right span:hover {
+  color: #fc3f1d;
+}
+
+.login-btn {
+  background-color: #f1f0ed;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.login-btn a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
