@@ -56,6 +56,14 @@ table {
   vertical-align: top;
 }
 
+.service img {
+  margin-top: 6px;
+}
+
+.service a {
+  text-decoration: none;
+}
+
 .service:hover {
   cursor: pointer;
 }
@@ -89,6 +97,7 @@ table {
 .details .description {
   font-size: 13px;
   margin-top: 6px;
+  color: #000;
 }
 
 .service:hover .title {
