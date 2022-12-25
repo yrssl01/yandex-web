@@ -113,6 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid #e2e3e4;
   gap: 20px;
 }
 
@@ -189,7 +190,7 @@ select.soflow.tight {
 
 .container .container-main .details {
   font-size: 32px;
-  margin: 92px 0px;
+  margin: 100px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -223,4 +224,28 @@ select.soflow.tight {
 
 .details .details-pics > div img {
   width: 220px;
+}
+
+.container-footer .content {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer .content .links {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 12px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links .social-icons,
+.links .store-links {
+  display: flex;
+  gap: 5px;
 }
