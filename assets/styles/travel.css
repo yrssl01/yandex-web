@@ -81,6 +81,7 @@ body {
 
 .container-header {
   display: flex;
+  gap: 30px;
 }
 
 .container-header span {
@@ -88,12 +89,12 @@ body {
   font-size: 18px;
   display: flex;
   gap: 12px;
-  padding: 12px 18px;
+  padding: 12px 0px;
   align-items: center;
 }
 
 .container-header span:hover {
-  color: #fc3f1d;
+  color: #e50f4f;
 }
 
 .container-header .active {
@@ -102,14 +103,62 @@ body {
   border-bottom: 2px solid #e50f4f;
 }
 
-.container .wrapper {
-  margin: 20px auto;
+.container .container-main {
+  margin-top: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container .wrapper > div {
+.container .container-main > div {
   font-size: 22px;
+  margin: 20px 0px;
 }
 
-.container .wrapper > div b {
+.container .container-main > div b {
   font-weight: 900;
+}
+
+.container-main .inputs {
+  width: 100%;
+  border: 1px solid #ffe356;
+}
+
+.container .container-main .details {
+  font-size: 32px;
+  margin: 92px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66.66%;
+}
+
+.details .details-pics {
+  width: 1200px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.details .details-pics > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.details .details-pics > div p {
+  width: 260px;
+}
+
+.details .details-pics > div a {
+  text-decoration: none;
+  color: #004ed8;
+}
+
+.details .details-pics > div img {
+  width: 220px;
 }
