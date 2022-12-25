@@ -72,6 +72,10 @@ body {
   font-size: 15px;
 }
 
+.login-btn:hover {
+  background-color: #ebe9e4;
+}
+
 .container {
   width: 1200px;
   display: flex;
@@ -109,11 +113,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .container .container-main > div {
   font-size: 22px;
-  margin: 20px 0px;
 }
 
 .container .container-main > div b {
@@ -122,7 +126,65 @@ body {
 
 .container-main .inputs {
   width: 100%;
-  border: 1px solid #ffe356;
+  border: 2px solid #ffe356;
+  border-radius: 7px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  width: 14%;
+  padding: 10px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  border-right: 1px solid #e5e5e5;
+}
+
+select.soflow {
+  -webkit-appearance: button;
+  height: 50px;
+  font-size: 18px;
+  border-right: 1px solid #e5e5e5;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  overflow: hidden;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+select.left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+select.right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+select.soflow.wide {
+  min-width: 23%;
+}
+
+select.soflow.tight {
+  width: 13%;
+}
+
+.form-inline button.submit {
+  padding: 10px 30px;
+  background-color: #ffe356;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  width: 14%;
 }
 
 .container .container-main .details {
