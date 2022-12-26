@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.display-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 24px;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 32px;
+  width: 360px;
+}
+
+.form .header {
+  padding: 0 0 16px;
+}
+
+.mail {
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  border: 1px solid #e3e4e5;
+  padding: 4px;
+  justify-content: space-between;
+}
+
+.mail a {
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+.mail .active {
+  background-color: #f1f2f5;
+  color: #000;
+}
+
+.form input {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px 10px;
+  border: 1px solid #e3e4e5;
+  border-radius: 10px;
+}
+
+.form input:focus {
+  border: 1px solid #ffdb4d;
+}
+
+form button {
+  cursor: pointer;
+  width: 100%;
+  background-color: #ffdb4d;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #ebcc4e;
+}
+
+form .btn-link {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px 0;
+  border: 1px solid #e3e4e5;
+  border-radius: 10px;
+}
+
+form .btn-link:hover {
+  background-color: #f1f2f3;
+}
+
+form .btn-link a {
+  text-decoration: none;
+  color: #000;
+}
